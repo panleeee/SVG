@@ -231,7 +231,6 @@ S 명령이 다른 S 또는 C 명령을 따르지 않으면, 두 제어점이 �
 An example of this syntax is shown below, and in the figure to the left the specified control points are shown in red, and the inferred control point in blue.
 이 구문의 예는 아래에 있으며, 왼쪽 그림에는 지정된 제어점이 빨간색으로 표시되고 예상된 제어점이 파란색으로 표시됩니다.
 
-The other type of Bezier curve, the quadratic curve called with Q, is actually a simpler curve than the cubic one.
 
 ### reference
 - https://developer.mozilla.org/en-us/docs/Web/SVG/Tutorial/Paths
