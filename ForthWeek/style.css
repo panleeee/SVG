@@ -1,0 +1,40 @@
+rect:hover{
+  box-shadow : 5px 5px 5px #d5d5d5;
+  cursor : pointer;
+}
+rect{
+  animation: stretchWidth 3s infinite;
+}
+
+circle:hover {
+  border: 1px solid #000;
+  animation: changeCircle1 3s infinite;
+  cursor: pointer;
+}
+
+
+@keyframes stretchWidth {
+    0%{
+      width: 0px;
+    }
+    100%{
+      width: 100px;
+    }
+}
+
+@keyframes changeCircle1 {
+    0%{
+      fill : #000;
+      r : 25px;
+    }
+
+    50%{
+      fill : #fff;
+      r : 100px;
+    }
+
+    100%{
+      fill : #000;
+      r : 25px;
+    }
+}
